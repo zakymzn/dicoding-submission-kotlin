@@ -2,5 +2,5 @@ package com.dicoding.exam.optionalexam1
 
 // TODO
 fun sumOfBigThree(vararg numbers: Int): Int {
-    return 0
+    return numbers.sorted().takeLast(3).sum()
 }
